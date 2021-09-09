@@ -4,7 +4,7 @@ A parser of the TBFSBS format. For assignment details please click [here](https:
 
 ## Download:
 ```bash
-git@github.com:lavakin/TBFSBS_parsing.git
+git clone git@github.com:lavakin/TBFSBS_parsing.git
 ```
 ## Dependencies:
 At least python 3.8 required
