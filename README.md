@@ -1,6 +1,6 @@
 # TBFSBS parser
 
-A parser of the TBFSBS format. For assignment details please click [here](https://gist.github.com/prihoda/d3fef922c29874b700a953a801e82692). 
+A parser of the TBFSBS format. For the assignment details please click [here](https://gist.github.com/prihoda/d3fef922c29874b700a953a801e82692). 
 
 ## Download:
 ```bash
