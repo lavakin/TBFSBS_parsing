@@ -5,8 +5,8 @@ import argparse
 def parse_args():
     my_parser = argparse.ArgumentParser()
     my_parser.add_argument('files', action='store', nargs='+', help='input files')
-    my_parser.add_argument('-w', '--wrap', action='store', type=int, default=54, help='wrap size')
-    my_parser.add_argument('-o', '--output', action='store', type=str,
+    my_parser.add_argument('-w', '--wrap', nargs='?', action='store', type=int, default=54, help='wrap size')
+    my_parser.add_argument('-o', '--output', nargs='?', action='store', type=str,
                            help='name of the output file')
     return my_parser.parse_args()
 
