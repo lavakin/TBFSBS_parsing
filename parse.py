@@ -70,7 +70,8 @@ if __name__ == '__main__':
     parsed_args = parse_args()
     if parsed_args.output is not None:
         open(parsed_args.output, 'w').close()
-    for in_file in parsed_args.files:
-        Parser.print_file(in_file)
-        if parsed_args.output is not None:
+        for in_file in parsed_args.files:
             Writer.write_file(in_file, parsed_args.output)
+    else:
+        for in_file in parsed_args.files:
+            Parser.print_file(in_file)
