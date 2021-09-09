@@ -21,7 +21,7 @@ At least python 3.8 required
 ./parse.py MySequences1.txt MySequences2.txt --output MyOutput.txt --wrap 80
 ```
 
-You may also use shortened flags:
+You may also use the shorter flags:
 ```bash
 ./parse.py MySequences1.txt MySequences2.txt -o MyOutput.txt -w 80
 ```
